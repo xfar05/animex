@@ -1,0 +1,41 @@
+.recommend-wrapper {
+  justify-content: center;
+  width: 190px;
+  text-align: center;
+  align-items: center;
+}
+ 
+.recommend-card {
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  transition: all 0.5s;
+
+  width: 190px;
+  margin-bottom: 5px;
+}
+
+.recommend-card-title {
+  color: white;
+  font-weight: lighter;
+  font-size: 1.4rem;
+}
+
+.epnumber {
+  color: white;
+  margin-top: 5px;
+}
+.stardiv {
+  color: yellow;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2px 7px;
+  position: absolute;
+  border-radius: 5px;
+  font-size: 1.35rem;
+  display: flex;
+  gap: 4px;
+  border-top-left-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
